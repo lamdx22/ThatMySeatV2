@@ -23,9 +23,10 @@ const BarControl = cc.Class({
             cc.tween(child).to(0.5, {x: i*170 - size}).start();
         }
         if (this.children.length == 0) {
-            this.scheduleOnce(() => {
-                GameManager.instance.winGame();
-            }, 0.5);
+            GameManager.instance.winGame();
+            // this.scheduleOnce(() => {
+            //     GameManager.instance.winGame();
+            // }, 0.5);
         }
     },
 

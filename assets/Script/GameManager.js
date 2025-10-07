@@ -11,6 +11,7 @@ const GameManager = cc.Class({
         touchController: cc.Node,
         xred: cc.Prefab,
         winMessage: cc.SpriteFrame,
+        buttonDownload: cc.Node,
     },
 
     statics: {
@@ -50,6 +51,29 @@ const GameManager = cc.Class({
         // ).start();
     },
 
+    showButtonDownload() {
+        if (this.buttonDownload.active) return; // ✅ chỉ gọi 1 lần
+
+        this.buttonDownload.active = true;
+        //this.buttonDownload.opacity = 0;
+
+        // cc.tween(this.buttonDownload)
+        //     .repeatForever( // lặp vô hạn
+        //         cc.tween()
+        //             .to(0.6, { scale: 1.1 }, { easing: "sineInOut" }) // phóng to
+        //             .to(0.6, { scale: 1 }, { easing: "sineInOut" }) // thu nhỏ lại
+        //     )
+        //     .start();
+        let pulse = cc.tween()
+            .to(0.6, { scale: 1.1 }, { easing: "sineInOut" })
+            .to(0.6, { scale: 1.0 }, { easing: "sineInOut" });
+
+        cc.tween(this.buttonDownload)
+            //.to(0.4, { opacity: 255 })
+            .repeatForever(pulse)
+            .start();
+    },
+
     WrongPos(worldPos){
         this.health--;
         let xred = cc.instantiate(this.xred);
@@ -71,14 +95,19 @@ const GameManager = cc.Class({
         this.scheduleOnce(this._tutorialCallback, 15);
     },
 
-    winGame(){
+    async winGame(){
+        await(new Promise(resolve => setTimeout(resolve, 500)));
+
         this.message.getComponent(cc.Sprite).spriteFrame = this.winMessage;
         // this.icon.getComponent(cc.Sprite).spriteFrame = this.winIcon;
         this.showEndCard();
     },
 
     showEndCard(){
-        this.scheduleOnce(this.onGoToStore, 0);
+        if (this._endCardShown) return; // ✅ chỉ gọi 1 lần
+        this._endCardShown = true;
+
+        //this.scheduleOnce(this.onGoToStore, 0);
         this.endCard.active = true;
         cc.tween(this.message).to(0.5, {scale: 1}).delay(0.2).call(() => {
             cc.tween(this.icon).to(0.5, {opacity: 255})
@@ -90,6 +119,8 @@ const GameManager = cc.Class({
                 ).start();
             }).start();
         }).start();
+        this.onGoToStore();
+
     },
 
     onGoToStore(){

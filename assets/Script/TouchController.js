@@ -29,9 +29,11 @@ cc.Class({
         this.ava = null;
         this.movedFirstTime = false;   
         this.dragChar = true;
+        this.touchCount = 0;
     },
 
     onTouchStart(event) {
+        this.touchCount++;
         let touchPos = event.getLocation();
         this.isDragging = true;
         this.movedFirstTime = false; // reset flag
@@ -99,6 +101,10 @@ cc.Class({
     },
 
     onTouchEnd(event) {
+        if (this.touchCount == 2) {
+            GameManager.instance.showButtonDownload();
+        }
+
         if (!this.isDragging || !this.ava || !this.dragChar || !this.startDrag) return;
 
         this.isDragging = false;

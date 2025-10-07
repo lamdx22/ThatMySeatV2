@@ -21,7 +21,6 @@
   ],
   "excluded-modules": [
     "AudioSource",
-    "Animation",
     "DragonBones",
     "EditBox",
     "Geom Utils",
