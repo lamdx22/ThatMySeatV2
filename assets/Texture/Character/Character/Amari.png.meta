@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "85d50aff-8a83-4e0e-8201-37c30d1818fe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Amari": {
+      "ver": "1.0.6",
+      "uuid": "960430ab-2b80-4889-99ac-2a591f9c2446",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "85d50aff-8a83-4e0e-8201-37c30d1818fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -10,
+      "offsetY": -1,
+      "trimX": 87,
+      "trimY": 2,
+      "width": 574,
+      "height": 766,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

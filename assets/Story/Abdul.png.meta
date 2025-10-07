@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "39829777-295b-46db-8cac-38fd1f1fb36e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Abdul": {
+      "ver": "1.0.6",
+      "uuid": "4f17ffd3-c913-4bbb-825d-da3545c3251b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "39829777-295b-46db-8cac-38fd1f1fb36e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -0.5,
+      "trimX": 85,
+      "trimY": 1,
+      "width": 601,
+      "height": 767,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

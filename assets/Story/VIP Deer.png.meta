@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f6f6b8d5-0fa7-4876-aef2-970455bfed46",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "VIP Deer": {
+      "ver": "1.0.6",
+      "uuid": "86c31dad-c0c7-4099-8ad1-11e93025759b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f6f6b8d5-0fa7-4876-aef2-970455bfed46",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 0,
+      "trimX": 48,
+      "trimY": 0,
+      "width": 675,
+      "height": 768,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

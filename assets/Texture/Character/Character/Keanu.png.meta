@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e9b6a390-2844-454d-a0c3-2fb729316b50",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Keanu": {
+      "ver": "1.0.6",
+      "uuid": "d448ec7b-909d-49a2-8b71-d242c3c07b69",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e9b6a390-2844-454d-a0c3-2fb729316b50",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 0,
+      "trimX": 87,
+      "trimY": 0,
+      "width": 586,
+      "height": 768,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

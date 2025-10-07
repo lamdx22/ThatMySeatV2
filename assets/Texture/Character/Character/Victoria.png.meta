@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "23127a84-cf74-4579-afa9-dc524cf8a6d4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Victoria": {
+      "ver": "1.0.6",
+      "uuid": "c67d792c-6ea8-48b7-858f-41bb76fbf00b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "23127a84-cf74-4579-afa9-dc524cf8a6d4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 768,
+      "height": 768,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7c32d081-5b02-43b9-8fe9-5fe34fc0d4fe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Azael": {
+      "ver": "1.0.6",
+      "uuid": "7d527fd9-84cf-43d1-84a8-3e9c1a9f0e77",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7c32d081-5b02-43b9-8fe9-5fe34fc0d4fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3.5,
+      "offsetY": -10.5,
+      "trimX": 104,
+      "trimY": 21,
+      "width": 567,
+      "height": 747,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

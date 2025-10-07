@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b999db1d-7c19-4f59-ac20-d4ec9ed22b64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Solana": {
+      "ver": "1.0.6",
+      "uuid": "b9049627-1464-413a-91c2-6182c3e87558",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b999db1d-7c19-4f59-ac20-d4ec9ed22b64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -16,
+      "offsetY": -8,
+      "trimX": 0,
+      "trimY": 16,
+      "width": 736,
+      "height": 752,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

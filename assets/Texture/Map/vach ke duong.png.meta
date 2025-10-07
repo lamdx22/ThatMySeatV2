@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f155c6bf-4cd2-4e25-a835-f87bdd79f306",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 40,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "vach ke duong": {
+      "ver": "1.0.6",
+      "uuid": "29509e60-9704-4440-86c2-8cf428222317",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f155c6bf-4cd2-4e25-a835-f87bdd79f306",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 40,
+      "height": 40,
+      "rawWidth": 40,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

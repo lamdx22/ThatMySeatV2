@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b960d282-bc88-456f-a1ed-dd12b8574178",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "VIP Panther": {
+      "ver": "1.0.6",
+      "uuid": "80855db7-b42e-43a4-b8a9-ce0afd181436",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b960d282-bc88-456f-a1ed-dd12b8574178",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -23.5,
+      "trimX": 3,
+      "trimY": 47,
+      "width": 764,
+      "height": 721,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

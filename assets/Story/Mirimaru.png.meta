@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "eb9da9e8-cd10-468c-8425-f6355d002b00",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Mirimaru": {
+      "ver": "1.0.6",
+      "uuid": "f76e1ce7-605b-4020-a3f5-2f466db47c46",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "eb9da9e8-cd10-468c-8425-f6355d002b00",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 11,
+      "offsetY": 0,
+      "trimX": 22,
+      "trimY": 0,
+      "width": 746,
+      "height": 768,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

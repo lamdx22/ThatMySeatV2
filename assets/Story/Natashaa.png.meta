@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dc0e90dc-63f5-4ac7-96e6-9e5032b19898",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Natashaa": {
+      "ver": "1.0.6",
+      "uuid": "04cc65d2-53db-4b9f-bcc2-41496bbe1cd5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dc0e90dc-63f5-4ac7-96e6-9e5032b19898",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -12.5,
+      "offsetY": -11.5,
+      "trimX": 28,
+      "trimY": 23,
+      "width": 687,
+      "height": 745,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

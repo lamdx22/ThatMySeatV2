@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3c6b9773-9e26-4a06-bfb4-8f99c1737c06",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "VIP Buffalo": {
+      "ver": "1.0.6",
+      "uuid": "e25e7d50-3bd2-4f6b-b61c-0e1f5f7c9112",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3c6b9773-9e26-4a06-bfb4-8f99c1737c06",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -2,
+      "trimX": 13,
+      "trimY": 4,
+      "width": 742,
+      "height": 764,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

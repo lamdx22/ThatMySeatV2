@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d8205411-d292-4794-b46b-f678b99a0652",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Talissa": {
+      "ver": "1.0.6",
+      "uuid": "0b593420-b396-4265-9360-60bbc91ef6ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d8205411-d292-4794-b46b-f678b99a0652",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": -13,
+      "trimX": 53,
+      "trimY": 26,
+      "width": 667,
+      "height": 742,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

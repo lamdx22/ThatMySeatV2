@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fdc6c125-3efc-40c3-ad10-988924ca730c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Adhara": {
+      "ver": "1.0.6",
+      "uuid": "0d3b06b4-2123-4a77-856e-0522bd6ce8dd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fdc6c125-3efc-40c3-ad10-988924ca730c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3.5,
+      "offsetY": -9.5,
+      "trimX": 59,
+      "trimY": 19,
+      "width": 643,
+      "height": 749,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

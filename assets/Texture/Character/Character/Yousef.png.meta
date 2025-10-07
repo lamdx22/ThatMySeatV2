@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e770067b-7c8b-4bde-b965-078cd15d3484",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Yousef": {
+      "ver": "1.0.6",
+      "uuid": "118eb980-bfbd-4f14-821b-6c876c0f70a4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e770067b-7c8b-4bde-b965-078cd15d3484",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 22.5,
+      "offsetY": -1.5,
+      "trimX": 78,
+      "trimY": 3,
+      "width": 657,
+      "height": 765,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9cb60239-bc97-4eca-a495-a062dd9e1b38",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Brodie": {
+      "ver": "1.0.6",
+      "uuid": "0bb5e88b-7e6a-48ac-8ede-7fd2f67c39b2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9cb60239-bc97-4eca-a495-a062dd9e1b38",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -13.5,
+      "offsetY": -1,
+      "trimX": 46,
+      "trimY": 2,
+      "width": 649,
+      "height": 766,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

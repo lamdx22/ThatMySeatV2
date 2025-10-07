@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0402d607-a7c4-4570-8621-33d9b5af41e5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Byron": {
+      "ver": "1.0.6",
+      "uuid": "091e01cf-e6c6-4d45-a540-6d735737cd60",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0402d607-a7c4-4570-8621-33d9b5af41e5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": -6.5,
+      "trimX": 5,
+      "trimY": 13,
+      "width": 748,
+      "height": 755,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

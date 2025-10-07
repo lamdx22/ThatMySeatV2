@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "96f0e2a4-76a0-4472-8a1d-933a8d757910",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 768,
+  "height": 768,
+  "platformSettings": {},
+  "subMetas": {
+    "Mazie": {
+      "ver": "1.0.6",
+      "uuid": "dd161901-2ee2-40f6-93d4-70dfdf73bee8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "96f0e2a4-76a0-4472-8a1d-933a8d757910",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": 0,
+      "trimX": 93,
+      "trimY": 0,
+      "width": 588,
+      "height": 768,
+      "rawWidth": 768,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
