@@ -64,9 +64,9 @@ cc.Class({
         
         if (!this.movedFirstTime) { 
             this.movedFirstTime = true;
-            // if (Math.abs(delta.y) * 40 > Math.abs(delta.x)) 
-            //     this.dragChar = true;
-            // else this.dragChar = false;
+            if (Math.abs(delta.y) * 60 > Math.abs(delta.x)) 
+                this.dragChar = true;
+            else this.dragChar = false;
         }
         this.dragChar = true;
         
