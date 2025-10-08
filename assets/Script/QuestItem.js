@@ -6,6 +6,7 @@ cc.Class({
         questLabel: cc.RichText,
         iconTick: cc.Node,
         hint: cc.Node,
+        questTextNode: cc.Node,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -20,7 +21,17 @@ cc.Class({
         this.node.height = this.questLabel.node.height + 55;
     },
 
-    onTouchEnd(){
+    setQuestText(text) {
+        //this.questLabel.string = text;
+        this.questTextNode.getComponent('ClickableRichText').richText.string = text;
+    },
+
+    onTouchEnd(event){
+        TouchController.instance.touchCount++;
+        if (TouchController.instance.touchCount == 2) {
+            GameManager.instance.showButtonDownload();
+        }
+
         if(HintSentences.instance.firstTouch && this.dataMatch == 0){
             HintSentences.instance.firstTouch = false;
             HintSentences.instance.tutBox.active = false;
@@ -32,9 +43,9 @@ cc.Class({
                 BarControl.instance.nextTutorial(this.dataMatch);
             }).start();
         }
-        else{
-            BarControl.instance.focusChar(this.dataMatch);
-        }
+        // else{
+        //     BarControl.instance.focusChar(this.dataMatch);
+        // }
     },
 
     // onNameClick(event, name) {

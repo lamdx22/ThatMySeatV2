@@ -1,4 +1,4 @@
-cc.Class({
+const TouchController = cc.Class({
     extends: cc.Component,
 
     properties: {
@@ -11,8 +11,12 @@ cc.Class({
         touchController: cc.Node,
         content: cc.Node,
     },
+    statics: {
+        instance: null,
+    },
 
     onLoad() {
+        TouchController.instance = this;
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.node.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
@@ -180,3 +184,4 @@ cc.Class({
         //     }).start();
     }
 });
+window.TouchController = TouchController;

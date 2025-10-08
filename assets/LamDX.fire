@@ -1690,10 +1690,10 @@
         "__id__": 63
       },
       {
-        "__id__": 66
+        "__id__": 34
       },
       {
-        "__id__": 34
+        "__id__": 66
       }
     ],
     "_active": true,
@@ -2728,6 +2728,7 @@
     },
     "iconTick": null,
     "hint": null,
+    "questTextNode": null,
     "_id": "1exjwxP15HqI+XQVYygNAy"
   },
   {
@@ -3564,6 +3565,7 @@
     },
     "iconTick": null,
     "hint": null,
+    "questTextNode": null,
     "_id": "aaHLRvNvdHlbzU7/EeCNLr"
   },
   {
@@ -6860,6 +6862,38 @@
     "slotTutor": {
       "__id__": 180
     },
+    "characterNameList": [
+      {
+        "__id__": 228
+      },
+      {
+        "__id__": 243
+      },
+      {
+        "__id__": 258
+      },
+      {
+        "__id__": 282
+      },
+      {
+        "__id__": 99
+      },
+      {
+        "__id__": 113
+      },
+      {
+        "__id__": 127
+      },
+      {
+        "__id__": 141
+      },
+      {
+        "__id__": 155
+      },
+      {
+        "__id__": 169
+      }
+    ],
     "_id": "4338ET3j1NgrZvnDh6OY8y"
   },
   {

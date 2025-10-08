@@ -10,76 +10,77 @@ class Language {
 
         this.language = this.EN;
         this.thomas = [
-            '<color=#FF7A00><u>Caleb</u></color>\'s grandchild married a curly-haired man.', // English
-            'Внук <color=#FF7A00><u>Caleb</u></color> женился на мужчине с кудрявыми волосами.', // Russian
-            '<color=#FF7A00><u>Caleb</u></color>의 손주가 곱슬머리 남자와 결혼했어요.', // Korean
-            '<color=#FF7A00><u>Caleb</u></color>の孫はくせ毛の男性と結婚しました。', // Japanese
-            'El nieto de <color=#FF7A00><u>Caleb</u></color> se casó con un hombre de cabello rizado.', // Spanish
-            '<color=#FF7A00><u>Caleb</u></color>的孙子娶了一个卷发的男人。', // Chinese
-            'Der Enkel von <color=#FF7A00><u>Caleb</u></color> hat einen lockigen Mann geheiratet.', // German
-            'Le petit-enfant de <color=#FF7A00><u>Caleb</u></color> a épousé un homme aux cheveux bouclés.', // French
-            'O neto de <color=#FF7A00><u>Caleb</u></color> se casou com um homem de cabelos cacheados.', // Portuguese
+            '<on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on>\'s grandchild married a curly-haired man.', // English
+            'Внук <on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on> женился на мужчине с кудрявыми волосами.', // Russian
+            '<on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on>의 손주가 곱슬머리 남자와 결혼했어요.', // Korean
+            '<on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on>の孫はくせ毛の男性と結婚しました。', // Japanese
+            'El nieto de <on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on> se casó con un hombre de cabello rizado.', // Spanish
+            '<on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on>的孙子娶了一个卷发的男人。', // Chinese
+            'Der Enkel von <on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on> hat einen lockigen Mann geheiratet.', // German
+            'Le petit-enfant de <on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on> a épousé un homme aux cheveux bouclés.', // French
+            'O neto de <on click="Caleb"><color=#FF7A00><u>Caleb</u></color></on> se casou com um homem de cabelos cacheados.', // Portuguese
         ];
+
         this.mason = [
-            '<color=#FF7A00><u>Angela</u></color>\'s grandchild always brings laughter to the family.', // English
-            'Внук <color=#FF7A00><u>Angela</u></color> всегда приносит смех в семью.', // Russian
-            '<color=#FF7A00><u>Angela</u></color>의 손주는 항상 가족에게 웃음을 선사해요.', // Korean
-            '<color=#FF7A00><u>Angela</u></color>の孫はいつも家族に笑いをもたらします。', // Japanese
-            'El nieto de <color=#FF7A00><u>Angela</u></color> siempre trae risas a la familia.', // Spanish
-            '<color=#FF7A00><u>Angela</u></color>的孙子总是给家人带来欢笑。', // Chinese
-            'Der Enkel von <color=#FF7A00><u>Angela</u></color> bringt der Familie immer Freude und Lachen.', // German
-            'Le petit-enfant de <color=#FF7A00><u>Angela</u></color> apporte toujours des rires à la famille.', // French
-            'O neto de <color=#FF7A00><u>Angela</u></color> sempre traz risadas para a família.', // Portuguese
-
+            '<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>\'s grandchild always brings laughter to the family.', // English
+            'Внук <on click="Angela"><color=#FF7A00><u>Angela</u></color></on> всегда приносит смех в семью.', // Russian
+            '<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>의 손주는 항상 가족에게 웃음을 선사해요.', // Korean
+            '<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>の孫はいつも家族に笑いをもたらします。', // Japanese
+            'El nieto de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on> siempre trae risas a la familia.', // Spanish
+            '<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>的孙子总是给家人带来欢笑。', // Chinese
+            'Der Enkel von <on click="Angela"><color=#FF7A00><u>Angela</u></color></on> bringt der Familie immer Freude und Lachen.', // German
+            'Le petit-enfant de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on> apporte toujours des rires à la famille.', // French
+            'O neto de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on> sempre traz risadas para a família.', // Portuguese
         ];
+
         this.diane = [
-            '<color=#FF7A00><u>Gregory</u></color>\'s grandchild usually dyes her hair white.', // English
-            'Внучка <color=#FF7A00><u>Gregory</u></color> обычно красит волосы в белый цвет.', // Russian
-            '<color=#FF7A00><u>Gregory</u></color>의 손녀는 보통 머리를 하얗게 염색해요.', // Korean
-            '<color=#FF7A00><u>Gregory</u></color>の孫は普段髪を白く染めます。', // Japanese
-            'La nieta de <color=#FF7A00><u>Gregory</u></color> suele teñirse el cabello de blanco.', // Spanish
-            '<color=#FF7A00><u>Gregory</u></color>的孙女通常把头发染成白色。', // Chinese
-            'Die Enkelin von <color=#FF7A00><u>Gregory</u></color> färbt sich normalerweise die Haare weiß.', // German
-            'La petite-fille de <color=#FF7A00><u>Gregory</u></color> se teint habituellement les cheveux en blanc.', // French
-            'A neta de <color=#FF7A00><u>Gregory</u></color> geralmente pinta o cabelo de branco.', // Portuguese
-
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>\'s grandchild usually dyes her hair white.', // English
+            'Внучка <on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> обычно красит волосы в белый цвет.', // Russian
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>의 손녀는 보통 머리를 하얗게 염색해요.', // Korean
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>の孫は普段髪を白く染めます。', // Japanese
+            'La nieta de <on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> suele teñirse el cabello de blanco.', // Spanish
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>的孙女通常把头发染成白色。', // Chinese
+            'Die Enkelin von <on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> färbt sich normalerweise die Haare weiß.', // German
+            'La petite-fille de <on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> se teint habituellement les cheveux en blanc.', // French
+            'A neta de <on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> geralmente pinta o cabelo de branco.', // Portuguese
         ];
+
         this.gregory = [
-            '<color=#FF7A00><u>Gregory</u></color> is <color=#FF7A00><u>Angela</u></color>\'s son.', // English
-            '<color=#FF7A00><u>Gregory</u></color> — сын <color=#FF7A00><u>Angela</u></color>.', // Russian
-            '<color=#FF7A00><u>Gregory</u></color>는 <color=#FF7A00><u>Angela</u></color>의 아들이에요.', // Korean
-            '<color=#FF7A00><u>Gregory</u></color>は<color=#FF7A00><u>Angela</u></color>の息子です。', // Japanese
-            '<color=#FF7A00><u>Gregory</u></color> es el hijo de <color=#FF7A00><u>Angela</u></color>.', // Spanish
-            '<color=#FF7A00><u>Gregory</u></color>是<color=#FF7A00><u>Angela</u></color>的儿子。', // Chinese
-            '<color=#FF7A00><u>Gregory</u></color> ist der Sohn von <color=#FF7A00><u>Angela</u></color>.', // German
-            '<color=#FF7A00><u>Gregory</u></color> est le fils de <color=#FF7A00><u>Angela</u></color>.', // French
-            '<color=#FF7A00><u>Gregory</u></color> é o filho de <color=#FF7A00><u>Angela</u></color>.', // Portuguese
-
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> is <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>\'s son.', // English
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> — сын <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>.', // Russian
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>는 <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>의 아들이에요.', // Korean
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>は<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>の息子です。', // Japanese
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> es el hijo de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>.', // Spanish
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on>是<on click="Angela"><color=#FF7A00><u>Angela</u></color></on>的儿子。', // Chinese
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> ist der Sohn von <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>.', // German
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> est le fils de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>.', // French
+            '<on click="Gregory"><color=#FF7A00><u>Gregory</u></color></on> é o filho de <on click="Angela"><color=#FF7A00><u>Angela</u></color></on>.', // Portuguese
         ];
+
         this.kathleen = [
-            '<color=#FF7A00><u>Brittany</u></color>\'s daughter has curly hair just like her mother.', // English
-            'У дочери <color=#FF7A00><u>Brittany</u></color> кудрявые волосы, как у её матери.', // Russian
-            '<color=#FF7A00><u>Brittany</u></color>의 딸은 엄마처럼 곱슬머리를 가지고 있어요.', // Korean
-            '<color=#FF7A00><u>Brittany</u></color>の娘は母親と同じようにくせ毛です。', // Japanese
-            'La hija de <color=#FF7A00><u>Brittany</u></color> tiene el cabello rizado, igual que su madre.', // Spanish
-            '<color=#FF7A00><u>Brittany</u></color>的女儿和她妈妈一样有卷发。', // Chinese
-            'Die Tochter von <color=#FF7A00><u>Brittany</u></color> hat lockiges Haar, genau wie ihre Mutter.', // German
-            'La fille de <color=#FF7A00><u>Brittany</u></color> a les cheveux bouclés, tout comme sa mère.', // French
-            'A filha de <color=#FF7A00><u>Brittany</u></color> tem cabelos cacheados, assim como a mãe.', // Portuguese
-
+            '<on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on>\'s daughter has curly hair just like her mother.', // English
+            'У дочери <on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on> кудрявые волосы, как у её матери.', // Russian
+            '<on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on>의 딸은 엄마처럼 곱슬머리를 가지고 있어요.', // Korean
+            '<on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on>の娘は母親と同じようにくせ毛です。', // Japanese
+            'La hija de <on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on> tiene el cabello rizado, igual que su madre.', // Spanish
+            '<on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on>的女儿和她妈妈一样有卷发。', // Chinese
+            'Die Tochter von <on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on> hat lockiges Haar, genau wie ihre Mutter.', // German
+            'La fille de <on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on> a les cheveux bouclés, tout comme sa mère.', // French
+            'A filha de <on click="Brittany"><color=#FF7A00><u>Brittany</u></color></on> tem cabelos cacheados, assim como a mãe.', // Portuguese
         ];
+
         this.liam = [
-            '<color=#FF7A00><u>Liam</u></color> is <color=#FF7A00><u>Doris</u></color>\'s husband.', // English
-            '<color=#FF7A00><u>Liam</u></color> — муж <color=#FF7A00><u>Doris</u></color>.', // Russian
-            '<color=#FF7A00><u>Liam</u></color>은 <color=#FF7A00><u>Doris</u></color>의 남편이에요.', // Korean
-            '<color=#FF7A00><u>Liam</u></color>は<color=#FF7A00><u>Doris</u></color>の夫です。', // Japanese
-            '<color=#FF7A00><u>Liam</u></color> es el esposo de <color=#FF7A00><u>Doris</u></color>.', // Spanish
-            '<color=#FF7A00><u>Liam</u></color>是<color=#FF7A00><u>Doris</u></color>的丈夫。', // Chinese
-            '<color=#FF7A00><u>Liam</u></color> ist der Ehemann von <color=#FF7A00><u>Doris</u></color>.', // German
-            '<color=#FF7A00><u>Liam</u></color> est le mari de <color=#FF7A00><u>Doris</u></color>.', // French
-            '<color=#FF7A00><u>Liam</u></color> é o marido de <color=#FF7A00><u>Doris</u></color>.', // Portuguese
-
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> is <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>\'s husband.', // English
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> — муж <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>.', // Russian
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on>은 <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>의 남편이에요.', // Korean
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on>は<on click="Doris"><color=#FF7A00><u>Doris</u></color></on>の夫です。', // Japanese
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> es el esposo de <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>.', // Spanish
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on>是<on click="Doris"><color=#FF7A00><u>Doris</u></color></on>的丈夫。', // Chinese
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> ist der Ehemann von <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>.', // German
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> est le mari de <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>.', // French
+            '<on click="Liam"><color=#FF7A00><u>Liam</u></color></on> é o marido de <on click="Doris"><color=#FF7A00><u>Doris</u></color></on>.', // Portuguese
         ];
+
     }
 
     getThomasText() {

@@ -38,7 +38,8 @@ const HintSentences = cc.Class({
         switch (index) {
             case 0:
                 questScript.dataMatch = 0;
-                questScript.questLabel.string = Language.getThomasText();
+                //questScript.questLabel.string = Language.getThomasText();
+                questScript.setQuestText(Language.getThomasText());
                 //this.tutBox.parent = quest;
                 this.tutBox.position = cc.v2(25,-100);
                 cc.tween(this.tutBox).repeatForever(
@@ -48,23 +49,28 @@ const HintSentences = cc.Class({
                 break;
             case 1:
                 questScript.dataMatch = 1;
-                questScript.questLabel.string = Language.getMasonText();
+                //questScript.questLabel.string = Language.getMasonText();
+                questScript.setQuestText(Language.getMasonText());
                 break;
             case 2:
                 questScript.dataMatch = 2;
-                questScript.questLabel.string = Language.getDianeText();
+                //questScript.questLabel.string = Language.getDianeText();
+                questScript.setQuestText(Language.getDianeText());
                 break;
             case 3:
                 questScript.dataMatch = 3;
-                questScript.questLabel.string = Language.getGregoryText();
+                //questScript.questLabel.string = Language.getGregoryText();
+                questScript.setQuestText(Language.getGregoryText());
                 break;
             case 4:
                 questScript.dataMatch = 4;
-                questScript.questLabel.string = Language.getKathleenText();
+                //questScript.questLabel.string = Language.getKathleenText();
+                questScript.setQuestText(Language.getKathleenText());
                 break;
             case 5:
                 questScript.dataMatch = 5;
-                questScript.questLabel.string = Language.getLiamText();
+                //questScript.questLabel.string = Language.getLiamText();
+                questScript.setQuestText(Language.getLiamText());
                 break;
             case 6:
                 //questScript.dataMatch = 6;

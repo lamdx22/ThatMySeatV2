@@ -4,6 +4,7 @@ const BarControl = cc.Class({
     properties: {
         tutBox: cc.Node,
         slotTutor: cc.Node,
+        characterNameList: [cc.Label],
     },
     statics: {
         instance: null,
@@ -54,13 +55,30 @@ const BarControl = cc.Class({
             ).start();
         }
     },
-    focusChar(dataMatch){
-        this.children = this.node.children;
-        for (let i = 0; i < this.children.length; i++) {
-            let child = this.children[i];
-            let childScript = child.getComponent("FrameItem");
-            if(childScript.charData == dataMatch){
-                cc.tween(child).to(0.3, {scale: 1.2}).to(0.3, {scale: 1}).start();
+    // focusChar(dataMatch){
+    //     this.children = this.node.children;
+    //     for (let i = 0; i < this.children.length; i++) {
+    //         let child = this.children[i];
+    //         let childScript = child.getComponent("FrameItem");
+    //         if(childScript.charData == dataMatch){
+    //             cc.tween(child).to(0.3, {scale: 1.2}).to(0.3, {scale: 1}).start();
+    //             break;
+    //         }
+    //     }
+    // },
+    focusChar(name){
+        for (let i = 0; i < this.characterNameList.length; i++) {
+            let child = this.characterNameList[i];
+            //let childScript = child.getComponent("FrameItem");
+            if(child.string == name){
+                let ava = child.node.parent.parent;
+                //cc.Tween.stopAllByTarget(ava); // dừng toàn bộ tween đang chạy trên node ava
+                //ava.scale = 1;
+
+                cc.tween(ava)
+                .to(0.2, {scale: 1.2}).to(0.2, {scale: 1})
+                .to(0.2, {scale: 1.2}).to(0.2, {scale: 1})
+                .start();
                 break;
             }
         }
