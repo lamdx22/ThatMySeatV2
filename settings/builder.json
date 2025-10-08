@@ -1,8 +1,10 @@
 {
   "title": "ThatMySeatV2",
   "packageName": "org.cocos2d.demo",
-  "startScene": "467f98cc-ecc7-4b36-842d-14801ebc1da2",
-  "excludeScenes": [],
+  "startScene": "1f01f9c9-d7f6-46ec-ae21-1fc232083834",
+  "excludeScenes": [
+    "467f98cc-ecc7-4b36-842d-14801ebc1da2"
+  ],
   "orientation": {
     "landscapeRight": true,
     "landscapeLeft": true,

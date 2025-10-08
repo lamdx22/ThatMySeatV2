@@ -14,9 +14,9 @@ from pathlib import Path
 prefix = ''
 if (prefix != ''):
     prefix += '_'
-date = '061025'
+date = '081025'
 titles = ['ArrangeIt']
-version = ['10c25']
+version = ['10d25']
 dev = 'Vanhdn'
 languages = ['en','ru','kr','jp','es','zh','de','fr','pt']
 # languages = ['en']
